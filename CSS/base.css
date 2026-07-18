@@ -1,0 +1,48 @@
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.jsCenter {
+    justify-content: center;
+}
+
+.aiCenter {
+    align-items: center;
+}
+
+/*/ Colour Styling (responsive) /*/
+
+@media(prefers-color-scheme: dark) {
+    
+    * {
+        --background: #121212;
+        --primary: #ffffff;
+        --green: #1BFF95;
+    }
+}
+
+@media(prefers-color-scheme: light) {
+    * {
+        --background: #ffffff;
+        --primary: #121212;
+        --green: #1BFF95;
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding: none;
+    margin: none;
+    background-color: var(--background);
+}
+

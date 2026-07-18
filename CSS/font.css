@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    --thin: 100;
+    --extraLight: 200;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semiBold: 600;
+    --bold: 700;
+    --extraBold: 800;
+    --black: 900;
+
+    font-family: 'Inter';
+
+}
+
+
+@media(width: 200px) {
+    * {
+        font-size: 8px;
+    }
+}
+
+@media(width: 1200px) {
+    * {
+        font-size: 10px;
+    }
+}
