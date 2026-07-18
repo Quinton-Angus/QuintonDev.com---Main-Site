@@ -1,5 +1,6 @@
 #mainHeader {
     color: var(--green);
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 20rem;
     font-weight: var(--bold);
     line-height: 1;
